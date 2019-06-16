@@ -1916,7 +1916,7 @@ clear:left;
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: #5c6161 !important;
 		}
 
 	strong, b {
@@ -2124,8 +2124,8 @@ clear:left;
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #18bfef;
-			color: #18bfef !important;
+			box-shadow: inset 0 0 0 2px #5c6161;
+			color: #5c6161 !important;
 		}
 
 		input[type="submit"].special,
@@ -2143,7 +2143,7 @@ clear:left;
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #18bfef;
+				background-color: #5c6161;
 			}
 
 /* Form */
@@ -2429,7 +2429,7 @@ clear:left;
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #18bfef;
+			border-color: #5c6161;
 		}
 
 	select option {
@@ -2460,7 +2460,7 @@ clear:left;
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #18bfef;
+		border-color: #5c6161;
 	}
 
 	::-webkit-input-placeholder {
@@ -2787,7 +2787,7 @@ clear:left;
 	}
 
 	ul.icons li a.icon:hover:before {
-		color: #18bfef;
+		color: #5c6161;
 	}
 
 	ul.icons.alt li .icon:before {
@@ -2795,7 +2795,7 @@ clear:left;
 	}
 
 	ul.icons.alt li a.icon:hover:before {
-		box-shadow: inset 0 0 0 2px #18bfef;
+		box-shadow: inset 0 0 0 2px #5c6161;
 	}
 
 /* Section/Article */
@@ -3086,13 +3086,13 @@ clear:left;
 	}
 
 		.pagination a:hover {
-			color: #18bfef !important;
-			border-color: #18bfef;
+			color: #5c6161 !important;
+			border-color: #5c6161;
 			z-index: 1;
 		}
 
 			.pagination a:hover + a, .pagination a:hover + span {
-				border-left-color: #18bfef;
+				border-left-color: #5c6161;
 			}
 
 		.pagination a.active {
@@ -3215,7 +3215,7 @@ clear:left;
 
 			#intro a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #5c6161 !important;
 			}
 
 		#intro strong, #intro b {
@@ -3254,8 +3254,8 @@ clear:left;
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #5c6161;
+				color: #5c6161 !important;
 			}
 
 			#intro input[type="submit"].special,
@@ -3273,7 +3273,7 @@ clear:left;
 				#intro input[type="button"].special:hover,
 				#intro button.special:hover,
 				#intro .button.special:hover {
-					background-color: #18bfef;
+					background-color: #5c6161;
 				}
 
 		#intro h1 {
@@ -3430,7 +3430,7 @@ clear:left;
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #5c6161 !important;
 			}
 
 		#header strong, #header b {
@@ -3477,8 +3477,8 @@ clear:left;
 		}
 
 			#header .logo:hover {
-				border-color: #18bfef !important;
-				color: #18bfef !important;
+				border-color: #000000 !important;
+				color: #000000 !important;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3506,7 +3506,7 @@ clear:left;
 /* Nav */
 
 	#nav {
-		color: #ffffff;
+		color: rgb(61, 61, 64);
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3515,9 +3515,9 @@ clear:left;
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.175);
-		height: 4rem;
-		line-height: 4rem;
+		background: rgba(117, 118, 125, 0.74);
+		height: 3rem;
+		line-height: 3rem;
 		margin: 0 auto 0 auto;
 		overflow: hidden;
 		padding: 0 2rem 0 0;
@@ -3535,7 +3535,7 @@ clear:left;
 		}
 
 		#nav ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #5c6161;
 		}
 
 		#nav ul.icons.alt li .icon:before {
@@ -3543,7 +3543,7 @@ clear:left;
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #5c6161;
 		}
 
 		#nav input, #nav select, #nav textarea {
@@ -3557,7 +3557,7 @@ clear:left;
 
 			#nav a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #5c6161 !important;
 			}
 
 		#nav strong, #nav b {
@@ -3633,7 +3633,7 @@ clear:left;
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #18bfef !important;
+							color: #5c6161 !important;
 						}
 
 		#nav ul.icons {
@@ -3877,7 +3877,7 @@ clear:left;
 
 			#footer a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #5c6161 !important;
 			}
 
 		#footer strong, #footer b {
@@ -3920,8 +3920,8 @@ clear:left;
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #5c6161;
+				color: #5c6161 !important;
 			}
 
 			#footer input[type="submit"].special,
@@ -3939,7 +3939,7 @@ clear:left;
 				#footer input[type="button"].special:hover,
 				#footer button.special:hover,
 				#footer .button.special:hover {
-					background-color: #18bfef;
+					background-color: #5c6161;
 				}
 
 		#footer label {
@@ -3959,7 +3959,7 @@ clear:left;
 			#footer input[type="email"]:focus,
 			#footer select:focus,
 			#footer textarea:focus {
-				border-color: #18bfef;
+				border-color: #5c6161;
 			}
 
 		#footer select option {
@@ -3990,7 +3990,7 @@ clear:left;
 
 		#footer input[type="checkbox"]:focus + label:before,
 		#footer input[type="radio"]:focus + label:before {
-			border-color: #18bfef;
+			border-color: #5c6161;
 		}
 
 		#footer ::-webkit-input-placeholder {
@@ -4018,7 +4018,7 @@ clear:left;
 		}
 
 		#footer ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #5c6161;
 		}
 
 		#footer ul.icons.alt li .icon:before {
@@ -4026,7 +4026,7 @@ clear:left;
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #5c6161;
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
@@ -4066,13 +4066,13 @@ clear:left;
 		}
 
 			#footer .pagination a:hover {
-				color: #18bfef !important;
-				border-color: #18bfef;
+				color: #5c6161 !important;
+				border-color: #5c6161;
 				z-index: 1;
 			}
 
 				#footer .pagination a:hover + a, #footer .pagination a:hover + span {
-					border-left-color: #18bfef;
+					border-left-color: #5c6161;
 				}
 
 			#footer .pagination a.active {
@@ -4309,7 +4309,7 @@ clear:left;
 
 			#copyright a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #5c6161 !important;
 			}
 
 		#copyright strong, #copyright b {
