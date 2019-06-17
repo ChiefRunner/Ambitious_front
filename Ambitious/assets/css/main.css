@@ -3167,7 +3167,7 @@ clear:left;
 		@media screen and (orientation: portrait) {
 
 			#wrapper > .bg {
-				background-size: auto,								auto,														auto 175%;
+				/* background-size: auto,								auto,														auto 175%; */
 			}
 
 		}
@@ -3516,8 +3516,8 @@ clear:left;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
 		background: rgba(117, 118, 125, 0.74); /*네비 전체 바탕 */
-		height: 4rem;
-		line-height: 1.8rem;
+		height: 3rem;
+		line-height: 3rem;
 		margin: 0 auto 0 auto;
 		overflow: hidden;
 		padding: 0 2rem 0 0;
@@ -4489,7 +4489,7 @@ clear:left;
 					font-weight: 900;
 					letter-spacing: 0.075em;
 					/* padding: 0.75rem 0; */
-        
+
 					text-transform: uppercase;
 				}
 
