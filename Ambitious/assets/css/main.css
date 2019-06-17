@@ -32,9 +32,9 @@ padding:0px;
 }
 
 .menubar li a{
-/* background: rgb(109,109,109); */
+/* background: rgb(109,109,109); 위에 네비 바 색깔*/
  height:30px;   /*네비 바 높이 조정 */
-color:#cccccc;
+/* color:#cccccc; */
 display:block;
 font-weight:normal;
 /* line-height:50px; */
@@ -69,12 +69,12 @@ display:block; /* 마우스 커서 올리면 드랍메뉴 보이게 하기 */
 }
 
 .menubar li li {
-background: #000000; /* 드롭다운 전체 색깔 */
+background: rgba(19, 19, 22, 0.82); /* 드롭다운 전체 색깔 */
 display:block;
 float:left;
 margin:0px;
 padding:0px;
-width:180px;
+width:170px;
 
 
 }
@@ -85,7 +85,7 @@ background:none;
 
 .menubar li ul a{
 display:block;
-height:30px;
+height:29px;
 font-size:15px;
 font-style:normal;
 margin:0px;
@@ -96,8 +96,7 @@ text-align:center;
 .menubar li ul a:hover, .menubar li ul li:hover a{
 background:rgb(45, 166, 235);
 border:0px;
-color:rgb(45, 166, 235);
-text-decoration:none;
+color:white;
 }
 
 .menubar p{
@@ -3356,7 +3355,7 @@ clear:left;
 				}
 
 				#intro + #header {
-					margin-top: -14rem;
+					margin-top: -4rem;
 				}
 
 		}
@@ -3507,7 +3506,7 @@ clear:left;
 /* Nav */
 
 	#nav {
-		color: #000000;
+		color: #000000; /*네비 글자색 */
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3516,7 +3515,7 @@ clear:left;
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(117, 118, 125, 0.74);
+		background: rgba(117, 118, 125, 0.74); /*네비 전체 바탕 */
 		height: 4rem;
 		line-height: 1.8rem;
 		margin: 0 auto 0 auto;
@@ -3552,8 +3551,8 @@ clear:left;
 		}
 
 		#nav a {
-			color: #ffffff;
-			border-bottom-color: rgba(255, 255, 255, 0.5);
+			color: #ffffff; /*네비 글자 색*/
+			border-bottom: none; /* 보더 점 없앤 것 */
 		}
 
 			#nav a:hover {
@@ -3621,20 +3620,20 @@ clear:left;
 				}
 
 					#nav ul.links li a:hover {
-						color: inherit !important;
+						color: black !important; /*후버링할 때 글자 검은 색*/
 						background-color: rgba(255, 255, 255, 0.1);
 					}
 
 				#nav ul.links li.active {
-					background-color: #ffffff;
+					background-color: #ffffff; /*현재 페이지일때 바탕색*/
 				}
 
 					#nav ul.links li.active a {
-						color: #1e252d;
+						color: #1e252d; /*현재 페이지일때 글자색, 후버링하면 다른 색으로 돌아감*/
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #5c6161 !important;
+							color: #5c6161 !important; /*후버링할 때 글자색*/
 						}
 
 		#nav ul.icons {
@@ -4489,7 +4488,8 @@ clear:left;
 					font-size: 0.9rem;
 					font-weight: 900;
 					letter-spacing: 0.075em;
-					padding: 0.75rem 0;
+					/* padding: 0.75rem 0; */
+        
 					text-transform: uppercase;
 				}
 
