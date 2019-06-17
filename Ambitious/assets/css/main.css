@@ -14,7 +14,7 @@ border:0px;
 margin:0px;
 padding:0px;
 /* font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif; */
-font-size:14px;
+font-size:10px;
 font-weight:bold;
 }
 
@@ -33,7 +33,7 @@ padding:0px;
 
 .menubar li a{
 /* background: rgb(109,109,109); */
- height:60px;   /*네비 바 높이 조정 */
+ height:30px;   /*네비 바 높이 조정 */
 color:#cccccc;
 display:block;
 font-weight:normal;
@@ -58,7 +58,7 @@ padding:0px;
 margin:0px;
 border:0px;
 position:absolute;
-width:400px;
+/* width:400px; */
 z-index:998;
 /*top:1em;
 /*left:0;*/
@@ -69,12 +69,13 @@ display:block; /* 마우스 커서 올리면 드랍메뉴 보이게 하기 */
 }
 
 .menubar li li {
-background: rgb(109,109,109);
+background: #000000; /* 드롭다운 전체 색깔 */
 display:block;
 float:left;
 margin:0px;
 padding:0px;
-width:100px;
+width:180px;
+
 
 }
 
@@ -84,18 +85,18 @@ background:none;
 
 .menubar li ul a{
 display:block;
-height:50px;
-font-size:12px;
+height:30px;
+font-size:15px;
 font-style:normal;
 margin:0px;
 padding:0px 10px 0px 15px;
-text-align:left;
+text-align:center;
 }
 
 .menubar li ul a:hover, .menubar li ul li:hover a{
-background: rgb(71,71,71);
+background:rgb(45, 166, 235);
 border:0px;
-color:#ffffff;
+color:rgb(45, 166, 235);
 text-decoration:none;
 }
 
@@ -3506,7 +3507,7 @@ clear:left;
 /* Nav */
 
 	#nav {
-		color: rgb(61, 61, 64);
+		color: #000000;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3516,8 +3517,8 @@ clear:left;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
 		background: rgba(117, 118, 125, 0.74);
-		height: 3rem;
-		line-height: 3rem;
+		height: 4rem;
+		line-height: 1.8rem;
 		margin: 0 auto 0 auto;
 		overflow: hidden;
 		padding: 0 2rem 0 0;
